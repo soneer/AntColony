@@ -1,9 +1,9 @@
 import java.sql.*;
 public class MySQL { 
-	static final String DB_URL = "jdbc:mysql://192.168.86.102:3306/AntColony";
+	static final String DB_URL = "jdbc:mysql://ip:port/Name";
 	//  Database credentials
 	static final String USER = "root";
-	static final String PASS = "1Qw71p31ty!";
+	static final String PASS = "password!";
 
 	static Connection conn = null;
 	static Statement stmt = null;
